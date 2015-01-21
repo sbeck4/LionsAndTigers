@@ -14,6 +14,10 @@
 		839E7F3C1A68754700C1F1D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839E7F3B1A68754700C1F1D7 /* Images.xcassets */; };
 		839E7F3F1A68754700C1F1D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 839E7F3D1A68754700C1F1D7 /* LaunchScreen.xib */; };
 		839E7F4B1A68754700C1F1D7 /* LionsAndTigersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839E7F4A1A68754700C1F1D7 /* LionsAndTigersTests.m */; };
+		839E7F561A6879BE00C1F1D7 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839E7F551A6879BE00C1F1D7 /* TopViewController.m */; };
+		839E7F591A6879D500C1F1D7 /* HUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839E7F581A6879D500C1F1D7 /* HUDViewController.m */; };
+		839E7F5C1A68ACB900C1F1D7 /* ImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 839E7F5B1A68ACB900C1F1D7 /* ImageCollectionViewCell.m */; };
+		83D2E9521A6D6CBE00F88C27 /* hamburgerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D2E9511A6D6CBE00F88C27 /* hamburgerIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,13 @@
 		839E7F441A68754700C1F1D7 /* LionsAndTigersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionsAndTigersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		839E7F491A68754700C1F1D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		839E7F4A1A68754700C1F1D7 /* LionsAndTigersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LionsAndTigersTests.m; sourceTree = "<group>"; };
+		839E7F541A6879BE00C1F1D7 /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
+		839E7F551A6879BE00C1F1D7 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
+		839E7F571A6879D500C1F1D7 /* HUDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDViewController.h; sourceTree = "<group>"; };
+		839E7F581A6879D500C1F1D7 /* HUDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDViewController.m; sourceTree = "<group>"; };
+		839E7F5A1A68ACB900C1F1D7 /* ImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCollectionViewCell.h; sourceTree = "<group>"; };
+		839E7F5B1A68ACB900C1F1D7 /* ImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionViewCell.m; sourceTree = "<group>"; };
+		83D2E9511A6D6CBE00F88C27 /* hamburgerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburgerIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +92,15 @@
 		839E7F2D1A68754700C1F1D7 /* LionsAndTigers */ = {
 			isa = PBXGroup;
 			children = (
-				839E7F321A68754700C1F1D7 /* AppDelegate.h */,
-				839E7F331A68754700C1F1D7 /* AppDelegate.m */,
+				839E7F381A68754700C1F1D7 /* Main.storyboard */,
+				839E7F5A1A68ACB900C1F1D7 /* ImageCollectionViewCell.h */,
+				839E7F5B1A68ACB900C1F1D7 /* ImageCollectionViewCell.m */,
 				839E7F351A68754700C1F1D7 /* ViewController.h */,
 				839E7F361A68754700C1F1D7 /* ViewController.m */,
-				839E7F381A68754700C1F1D7 /* Main.storyboard */,
+				839E7F541A6879BE00C1F1D7 /* TopViewController.h */,
+				839E7F551A6879BE00C1F1D7 /* TopViewController.m */,
+				839E7F571A6879D500C1F1D7 /* HUDViewController.h */,
+				839E7F581A6879D500C1F1D7 /* HUDViewController.m */,
 				839E7F3B1A68754700C1F1D7 /* Images.xcassets */,
 				839E7F3D1A68754700C1F1D7 /* LaunchScreen.xib */,
 				839E7F2E1A68754700C1F1D7 /* Supporting Files */,
@@ -96,6 +111,9 @@
 		839E7F2E1A68754700C1F1D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				83D2E9511A6D6CBE00F88C27 /* hamburgerIcon.png */,
+				839E7F321A68754700C1F1D7 /* AppDelegate.h */,
+				839E7F331A68754700C1F1D7 /* AppDelegate.m */,
 				839E7F2F1A68754700C1F1D7 /* Info.plist */,
 				839E7F301A68754700C1F1D7 /* main.m */,
 			);
@@ -201,6 +219,7 @@
 			files = (
 				839E7F3A1A68754700C1F1D7 /* Main.storyboard in Resources */,
 				839E7F3F1A68754700C1F1D7 /* LaunchScreen.xib in Resources */,
+				83D2E9521A6D6CBE00F88C27 /* hamburgerIcon.png in Resources */,
 				839E7F3C1A68754700C1F1D7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +238,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				839E7F591A6879D500C1F1D7 /* HUDViewController.m in Sources */,
+				839E7F561A6879BE00C1F1D7 /* TopViewController.m in Sources */,
 				839E7F371A68754700C1F1D7 /* ViewController.m in Sources */,
 				839E7F341A68754700C1F1D7 /* AppDelegate.m in Sources */,
+				839E7F5C1A68ACB900C1F1D7 /* ImageCollectionViewCell.m in Sources */,
 				839E7F311A68754700C1F1D7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +434,7 @@
 				839E7F501A68754700C1F1D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		839E7F511A68754700C1F1D7 /* Build configuration list for PBXNativeTarget "LionsAndTigersTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +443,7 @@
 				839E7F531A68754700C1F1D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
